@@ -1,0 +1,28 @@
+.download-card {
+    background-color: #1a1a1a;
+    color: #fff;
+    padding: 1.5rem;
+    border-radius: 0.5rem;
+    margin: 1rem auto;
+    max-width: 400px;
+    text-align: center;
+    border: 2px solid #646cff;
+    transition: transform 0.3s, box-shadow 0.3s;
+}
+.download-card:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 5px 15px rgba(100, 108, 255, 0.5);
+}
+.download-card a {
+    display: inline-block;
+    margin-top: 1rem;
+    padding: 0.5rem 1.2rem;
+    background-color: #646cff;
+    color: #fff;
+    border-radius: 0.25rem;
+    text-decoration: none;
+    font-weight: 500;
+}
+.download-card a:hover {
+    background-color: #535bf2;
+}

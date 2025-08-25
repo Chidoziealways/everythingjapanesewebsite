@@ -1,0 +1,22 @@
+.about {
+    text-align: center;
+    color: whitesmoke;
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 20px;
+    line-height: 1.6;
+}
+
+.about h1, .about h2, .about h3, .about h4, .about h6 {
+    margin-bottom: 15px;
+}
+
+.about p {
+    margin-bottom: 20px;
+}
+
+.jp {
+    font-family: "Yu Mincho", "Noto Serif JP", serif;
+    color: black;
+    font-size: 1.1em;
+}
