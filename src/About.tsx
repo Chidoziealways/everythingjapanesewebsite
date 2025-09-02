@@ -3,8 +3,8 @@ import "./About.css"
 const About: React.FC = () => {
     return (
         <div className="about">
-            <h1>About This Mod</h1>
-            <p> This Mod was created in August 2024, but first published in September and has since been gaining popularity in the MC Modding Community </p>
+            <h1>What is EverythingJapanese?</h1>
+            <p> EverythingJapanese is a mod for the Java Edition of Minecraft created in August 2024, but first published in September and has since been gaining popularity in the MC Modding Community </p>
             <p>
                 This mod’s purpose is to bring Japanese-themed items... like
                 <span className="jp"> 術</span> (Jutsu),

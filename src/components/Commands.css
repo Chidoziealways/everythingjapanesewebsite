@@ -1,0 +1,20 @@
+.commands {
+    background: linear-gradient(135deg, #f0f0f0, #1a1a1a); /* smoother light → dark transition */
+    color: whitesmoke; /* easier on the eyes on dark background */
+    border-radius: 12px; /* softer edges */
+    padding: 20px;
+    box-shadow: 0 0 15px rgba(0,0,0,0.5); /* subtle depth */
+}
+
+.commands ol li h3 {
+    margin-bottom: 0.5rem; /* tighter spacing for h3 inside li */
+}
+
+.commands code {
+    background-color: #242424; /* match your site's dark theme */
+    color: #ffcc00; /* give it a Japanese-esk pop color */
+}
+
+.commands-header {
+    text-align: center;
+}

@@ -1,9 +1,13 @@
 import { Routes, Route } from "react-router-dom";
 import NavBar from "./components/NavBar";
 import Banner from "./components/Banner";
-import Gallery from "./components/Gallery";
+import PhotoGallery from "./components/PhotoGallery.tsx";
 import DownloadCard from "./components/DownloadCard";
 import About from "./About.tsx";
+import Commands from "./components/Commands.tsx";
+import Addons from "./components/addons/Addons.tsx";
+import VideoGallery from "./components/VideoGallery.tsx";
+import OpenSource from "./components/OpenSource.tsx";
 
 function App() {
     return (
@@ -11,14 +15,26 @@ function App() {
             <NavBar />
             <Routes>
                 <Route
-                    path="/gallery"
+                    path="/photogallery"
                     element={
                         <>
                             <Banner
                                 title="EverythingJapanese Mod"
                                 subtitle="The ultimate Minecraft mod with Japanese flair!"
                             />
-                            <Gallery />
+                            <PhotoGallery />
+                        </>
+                    }
+                />
+                <Route
+                    path="/videogallery"
+                    element={
+                        <>
+                            <Banner
+                                title="EverythingJapanese Mod"
+                                subtitle="The ultimate Minecraft mod with Japanese flair!"
+                            />
+                            <VideoGallery />
                         </>
                     }
                 />
@@ -47,11 +63,22 @@ function App() {
                 />
                 <Route path="/" element={
                     <>
-                    <Banner
+                        <Banner
                         title="EverythingJapanese Mod"
                         subtitle="The ultimate Minecraft mod with Japanese flair!"
-                    />
-                    <About />
+                        />
+                        <About />
+                        <OpenSource />
+                    </>
+                } />
+                <Route path="/commands" element={
+                    <>
+                        <Commands />
+                    </>
+                } />
+                <Route path="/addons" element={
+                    <>
+                        <Addons />
                     </>
                 } />
             </Routes>

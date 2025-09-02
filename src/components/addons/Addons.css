@@ -1,0 +1,31 @@
+.addons {
+    margin: 0 auto;
+    padding: 30px;
+    background: linear-gradient(135deg, red, green, yellow, blue, violet, indigo);
+    color: whitesmoke;
+    border-radius: 20px;
+    line-height: 2;
+}
+
+.addons-header {
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.addons ul {
+    list-style-type: disc;
+    padding-left: 2rem;
+}
+
+.addons code {
+    background-color: #242424;
+    color: #ffcc00;
+    padding: 2px 6px;
+    border-radius: 4px;
+    font-family: "Courier New", monospace;
+}
+
+.addons a {
+    color: #61dafb;
+    text-decoration: underline;
+}
